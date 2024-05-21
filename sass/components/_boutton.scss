@@ -1,0 +1,20 @@
+.btn-dark {
+    background-color: $bg-dark-color;
+    color: $text-light-color;
+    @include btn;
+
+    &:hover {
+        background-color: darken($bg-dark-color, 10%);
+        box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.4);
+    }
+}
+
+.btn-light {
+    background-color: $bg-color;
+    color: $bg-dark-color;
+    @include btn;
+
+    &:hover {
+        background-color: #e9ecef;
+    }
+}

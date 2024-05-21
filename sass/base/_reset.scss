@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-title;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+body {
+    font-family: $font-text;
+    font-size: 16px;
+    line-height: 1.2rem;
+    color: $text-color;
+    background-color: $bg-color;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: $color-primary;
+
+    &:hover {
+        text-decoration: underline;
+        color: lighten($color-primary, 10%);
+    }
+
+    &:active {
+        color: darken($color-primary, 10%);
+    }
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
