@@ -1,3 +1,4 @@
+/* global Chart */
 const monBody = document.querySelector("body");
 const monBtnDarkMode = document.querySelector(".dark-mode");
 console.log(monBtnDarkMode);

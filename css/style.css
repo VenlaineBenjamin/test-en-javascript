@@ -53,6 +53,12 @@ img {
   height: auto;
 }
 
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 h1 {
   font-family: "Manrope", sans-serif;
   font-weight: 600;
@@ -148,6 +154,11 @@ main {
     margin: 0 10rem;
   }
 }
+@media (min-width: 1500px) {
+  main {
+    margin: 0 14rem;
+  }
+}
 
 nav {
   display: flex;
@@ -159,6 +170,10 @@ nav {
   nav {
     flex-direction: row;
   }
+}
+
+#myChart {
+  height: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
